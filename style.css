@@ -1,0 +1,35 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient Blue Background */
+    font-family: "Poppins", sans-serif;
+}
+
+/* Video Styling */
+video {
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 5px solid palevioletred;
+}
+
+/* Canvas Styling */
+canvas {
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading Styling */
+h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
